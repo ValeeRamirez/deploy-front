@@ -1,5 +1,5 @@
 import './principal.css'
-import principal from '../Imagenes/principal.png'
+import principal from '../../public/Imagenes/principal.png'
 
 function Principal(){
     

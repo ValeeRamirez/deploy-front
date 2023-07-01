@@ -43,13 +43,13 @@
 }
 
 .card2-front {
-  background-image: url(../../Imagenes/Metales.png);
+  background-image: url(../../../public/Imagenes/Metales.png);
   background-size: cover; 
   background-position: center center;
 }
 
 .card2-back {
-  background-image: url(../../Imagenes/Metal.png);
+  background-image: url(../../../public/Imagenes/Metal.png);
   background-size: cover; 
   background-position: center center;
   transform: rotateY(180deg);

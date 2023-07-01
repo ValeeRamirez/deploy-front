@@ -1,11 +1,11 @@
 import Card from './Card'
 import './Board.css'
-import top1 from '../Imagenes/top1.png'
-import top2 from '../Imagenes/top2.png'
-import top3 from '../Imagenes/top3.png'
-import top4 from '../Imagenes/top4.png'
-import top5 from '../Imagenes/top5.png'
-import top6 from '../Imagenes/top6.png'
+import top1 from '../../public/Imagenes/top1.png'
+import top2 from '../../public/Imagenes/top2.png'
+import top3 from '../../public/Imagenes/top3.png'
+import top4 from '../../public/Imagenes/top4.png'
+import top5 from '../../public/Imagenes/top5.png'
+import top6 from '../../public/Imagenes/top6.png'
 import React, {createContext, useState, useEffect} from "react";
 
 export const GameContext = createContext(null);

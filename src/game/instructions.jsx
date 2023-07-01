@@ -4,12 +4,12 @@ import ImageSlider from "./ImageSlider";
 import FlippableCard1 from "../assets/flippable-card";
 import FlippableCard2 from "../assets/flippable-card2";
 import FlippableCard3 from "../assets/flippable-card3";
-import Portada from '../Imagenes/Portada.jpg'
-import Instrucciones from '../Imagenes/Inst.jpg'
-import Agua from '../Imagenes/Agua.jpg'
-import Barcos from '../Imagenes/Barcos.jpg'
-import Casilla1 from '../Imagenes/Casillas_1.jpg'
-import Casilla2 from '../Imagenes/Casillas_2.jpg'
+import Portada from '../../public/Imagenes/Portada.jpg'
+import Instrucciones from '../../public/Imagenes/Inst.jpg'
+import Agua from '../../public/Imagenes/Agua.jpg'
+import Barcos from '../../public/Imagenes/Barcos.jpg'
+import Casilla1 from '../../public/Imagenes/Casillas_1.jpg'
+import Casilla2 from '../../public/Imagenes/Casillas_2.jpg'
 
 
 const Instructions = () => {

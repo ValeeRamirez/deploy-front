@@ -43,13 +43,13 @@
   }
   
   .card3-front {
-    background-image: url(../../Imagenes/Trigo.png);
+    background-image: url(../../../public/Imagenes/Trigo.png);
     background-size: cover; 
     background-position: center center;
   }
   
   .card3-back {
-    background-image: url(../../Imagenes/Wheat.png);
+    background-image: url(../../../public/Imagenes/Wheat.png);
     background-size: cover; 
     background-position: center center;
     transform: rotateY(180deg);

@@ -1,6 +1,6 @@
 import './equipo.css'
-import Vale from '../Imagenes/Vale.jpg'
-import Nico from '../Imagenes/Nico.jpg'
+import Vale from '../../public/Imagenes/Vale.jpg'
+import Nico from '../../public/Imagenes/Nico.jpg'
 
 function Equipo(){
     return (

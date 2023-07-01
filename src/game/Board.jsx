@@ -1,10 +1,10 @@
 import Card from './Card'
 import './Board.css'
-import Trigo from '../Imagenes/Wheat.png'
-import Metal from '../Imagenes/Metal.png'
-import Madera from '../Imagenes/Forest.png'
-import Agua from '../Imagenes/Sea1.png'
-import Corner from '../Imagenes/Shore.png'
+import Trigo from '../../public/Imagenes/Wheat.png'
+import Metal from '../../public/Imagenes/Metal.png'
+import Madera from '../../public/Imagenes/Forest.png'
+import Agua from '../../public/Imagenes/Sea1.png'
+import Corner from '../../public/Imagenes/Shore.png'
 import React, { createContext, useState, useEffect } from "react";
 
 export const GameContext = createContext(null);

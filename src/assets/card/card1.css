@@ -43,13 +43,13 @@
   }
   
   .card1-front {
-    background-image: url(../../Imagenes/Madera.png);
+    background-image: url(../../../public/Imagenes/Madera.png);
     background-size: cover; 
     background-position: center center;
   }
   
   .card1-back {
-    background-image: url(../../Imagenes/Forest.png);
+    background-image: url(../../../public/Imagenes/Forest.png);
     background-size: cover; 
     background-position: center center;
     transform: rotateY(180deg);

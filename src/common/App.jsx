@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext, useRef } from 'react'
 import './App.css'
 import SpinningText from "./SpinningText";
-import recursosia from "../Imagenes/recursosia.png"
+import recursosia from "../../public/Imagenes/recursosia.png"
 import LogoutButton from '../profile/Logout'
 import { AuthContext } from '../auth/AuthContext';
 
