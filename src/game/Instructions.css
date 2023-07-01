@@ -1,0 +1,21 @@
+li {
+    text-align: left;
+}
+
+p { 
+    text-align: right;
+}
+
+h2{
+    text-align: left;
+    font-size: 30px;
+}
+h1{
+    color:rgb(74, 207, 236);
+}
+
+.texto-instruc{
+    text-align: left;
+    font-size: 25px;
+    color:rgb(40, 196, 196);
+}

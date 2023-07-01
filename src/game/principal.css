@@ -1,0 +1,20 @@
+li {
+    text-align: left;
+}
+
+p { 
+    text-align: justify;
+}
+.principal{
+    height: 400px;
+    width: 550px;
+    display: center;
+    border-radius: 30px;
+    padding: 0em;
+    padding-right: 1em;
+    padding-bottom: 7px;
+    margin: 0px;
+}
+
+
+  

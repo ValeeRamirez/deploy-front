@@ -1,0 +1,30 @@
+li {
+    text-align: left;
+}
+
+p { 
+    text-align: center;
+    font-size: 20px;
+}
+.foto{
+    padding: 10px; 
+    margin: 10px; 
+    height: 400px;
+    border-radius: 80px;
+    border: 0px solid black;
+    float: center; 
+    width: 400px; 
+}
+.foto2{
+    padding: 10px; 
+    margin: 10px; 
+    height: 400px;
+    border-radius: 80px;
+    border: 0px solid black;
+    float: center; 
+    width: 550px; 
+    justify-self: center;
+}
+.texto{
+    text-shadow:rgb(21, 153, 153);
+}

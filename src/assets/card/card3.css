@@ -1,0 +1,56 @@
+.card3 {
+    /* Sizing */
+    height: 100%;
+    width: 100%;
+    
+    transform-style: preserve-3d;
+  
+    /* Content Alignment */
+    position: relative;
+  
+    /* Styling */
+    border-radius: 5px;
+    border: 0px solid white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+  
+    user-select: none;
+    cursor: pointer;
+  }
+  
+  .card3-front,
+  .card3-back {
+    /* Sizing */
+    height: 100%;
+    width: 100%;
+  
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  
+    /* Alignment */
+    position: absolute;
+  
+    /* Content Alignment */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* Content Styling */
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
+  }
+  
+  .card3-front {
+    background-image: url(../../Imagenes/Trigo.png);
+    background-size: cover; 
+    background-position: center center;
+  }
+  
+  .card3-back {
+    background-image: url(../../Imagenes/Wheat.png);
+    background-size: cover; 
+    background-position: center center;
+    transform: rotateY(180deg);
+  }
