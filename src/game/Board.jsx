@@ -47,7 +47,7 @@ export default function Board() {
 
     // Fetch the last created player ID here and set it to the playerId state
     axios
-      .get(`${import.meta.env.VITE_BACKEND_URL}/jugadors`)
+      .get(`${import.meta.env.VITE_BACKEND_URL}jugadors`)
       .then((response) => {
         const jugadors = response.data;
         if (jugadors.length > 0) {
