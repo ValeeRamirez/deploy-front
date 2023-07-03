@@ -1,9 +1,8 @@
-// card.jsx
 import './Card.css'
 import { useContext, useState } from 'react'
 import { GameContext } from "./Board.jsx";
 
-export default function Card({ id, frontImgSrc, backImgSrc }) {
+export default function Card({ id, frontImgSrc, backImgSrc, onClick }) {
   const [showImage, setShowImage] = useState(true);
   const { guess, setGuess } = useContext(GameContext);
 
@@ -17,7 +16,7 @@ export default function Card({ id, frontImgSrc, backImgSrc }) {
 
   return (
     <div className="card">
-      <div className="card-container">
+      <div className="card-container" onClick={() => onClick(id)}>
         {showImage ? (
           <img
             src={frontImgSrc}
