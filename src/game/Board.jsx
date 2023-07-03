@@ -70,7 +70,7 @@ export default function Board() {
       }
   
       const response = await axios.put(
-        `${import.meta.env.VITE_BACKEND_URL}/posicion_update/${playerId}/${coordenadas}`
+        `${import.meta.env.VITE_BACKEND_URL}posicion_update/${playerId}/${coordenadas}`
       );
       const message = response.data.message;
       console.log(message); // Optional: Log the response message

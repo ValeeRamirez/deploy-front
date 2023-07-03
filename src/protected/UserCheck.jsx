@@ -10,7 +10,7 @@ const UserCheck = () => {
     console.log(token);
     axios({
       method: 'get',
-      url: `${import.meta.env.VITE_BACKEND_URL}/scope-example/protecteduser`,
+      url: `${import.meta.env.VITE_BACKEND_URL}scope-example/protecteduser`,
       headers: {
         'Authorization': `Bearer ${token}`
       }

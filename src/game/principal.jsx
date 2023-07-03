@@ -6,7 +6,7 @@ import axios from 'axios';
 function Principal() {
   const handleIniciarPartida = async () => {
     try {
-      const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/jugadors`, {
+      const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}jugadors`, {
         tipo: "Principiante",
         posicion: "(0,0)"
       });
