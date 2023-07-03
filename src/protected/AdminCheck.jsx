@@ -10,7 +10,7 @@ const AdminCheck = () => {
     console.log(token);
     axios({
       method: 'get',
-      url: `${import.meta.env.VITE_BACKEND_URL}scope-example/protectedadmin`,
+      url: `${import.meta.env.VITE_BACKEND_URL}/scope-example/protectedadmin`,
       headers: {
         'Authorization': `Bearer ${token}`
       }

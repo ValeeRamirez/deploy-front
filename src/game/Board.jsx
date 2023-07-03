@@ -27,8 +27,8 @@ export default function Board() {
 
         const newCards = data.map((card) => ({
           id: card.id_casilla,
-          front: card.front || "../../../public/Imagenes/Collect.png",
-          back: card.back || "../../../public/Imagenes/Collect.png",
+          front: card.front || "/../../public/Imagenes/Collect.png",
+          back: card.back || "/../../public/Imagenes/Collect.png",
           coordenadas: card.coordenadas,
           tipo: card.tipo
         }));
