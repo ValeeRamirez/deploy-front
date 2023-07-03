@@ -14,7 +14,7 @@ export default function Board() {
 
   useEffect(() => {
     axios
-      .get(`${import.meta.env.VITE_BACKEND_URL}/casillas`)
+      .get(`${import.meta.env.VITE_BACKEND_URL}casillas`)
       .then((response) => {
         const data = response.data;
 
