@@ -18,7 +18,7 @@ function Principal(){
         </p>
         </p>
         <a href = '/'>Inicio</a>
-        <a href = '/welcome'>Inicio sesión</a>
+        {/* <a href = '/welcome'>Inicio sesión</a> */}
         <a href = '/instructions'>Ir a Instrucciones</a>
         <a href = '/equipo'>Acerca del equipo</a>
         </>

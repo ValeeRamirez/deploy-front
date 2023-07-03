@@ -1,56 +1,56 @@
 .card1 {
-    /* Sizing */
-    height: 100%;
-    width: 100%;
-    
-    transform-style: preserve-3d;
+  /* Sizing */
+  height: 100%;
+  width: 100%;
   
-    /* Content Alignment */
-    position: relative;
-  
-    /* Styling */
-    border-radius: 10px;
-    border: 0px solid white;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
-  
-    user-select: none;
-    cursor: pointer;
-  }
-  
-  .card1-front,
-  .card1-back {
-    /* Sizing */
-    height: 100%;
-    width: 100%;
-  
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  
-    /* Alignment */
-    position: absolute;
-  
-    /* Content Alignment */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    /* Content Styling */
-    font-family: Montserrat;
-    font-weight: 800;
-    font-size: 60px;
-    color: white;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
-  }
-  
-  .card1-front {
-    background-image: url(../../../public/Imagenes/Madera.png);
-    background-size: cover; 
-    background-position: center center;
-  }
-  
-  .card1-back {
-    background-image: url(../../../public/Imagenes/Forest.png);
-    background-size: cover; 
-    background-position: center center;
-    transform: rotateY(180deg);
-  }
+  transform-style: preserve-3d;
+
+  /* Content Alignment */
+  position: relative;
+
+  /* Styling */
+  border-radius: 10px;
+  border: 0px solid white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+
+  user-select: none;
+  cursor: pointer;
+}
+
+.card1-front,
+.card1-back {
+  /* Sizing */
+  height: 100%;
+  width: 100%;
+
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  /* Alignment */
+  position: absolute;
+
+  /* Content Alignment */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Content Styling */
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 60px;
+  color: white;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
+}
+
+.card1-front {
+  background-image: url(../../../public/Imagenes/Madera.png);
+  background-size: cover; 
+  background-position: center center;
+}
+
+.card1-back {
+  background-image: url(../../../public/Imagenes/Forest.png);
+  background-size: cover; 
+  background-position: center center;
+  transform: rotateY(180deg);
+}

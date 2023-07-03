@@ -55,7 +55,7 @@ const Instructions = () => {
         <FlippableCard2/>
         <FlippableCard3/>
         <a href = '/'>Inicio</a>
-        <a href = '/welcome'>Inicio sesión</a>
+        {/* <a href = '/welcome'>Inicio sesión</a> */}
         <a href = '/principal'>Ir a Pagina principal</a>
         <a href = '/equipo'>Acerca del equipo</a>
       </div>
